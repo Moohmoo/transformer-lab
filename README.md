@@ -33,8 +33,6 @@ This repository is designed for fast iteration and learning:
 - [Common Commands](#common-commands)
 - [Quality And CI](#quality-and-ci)
 - [Documentation](#documentation)
-- [Contributing](#contributing)
-- [Troubleshooting](#troubleshooting)
 
 ## Why This Repo
 
@@ -161,21 +159,3 @@ Start with:
 - `docs/README.md`
 
 Then continue with architecture, fundamentals, data, and training guides.
-
-## Contributing
-
-1. Create a branch from `main`.
-2. Make focused changes with clear commit messages.
-3. Run `poetry run ruff check src tests` and `poetry run pytest`.
-4. Open a Pull Request with context and test evidence.
-
-## Troubleshooting
-
-- Push rejected due to GitHub email privacy:
-    Set a noreply email in git config:
-    `git config --global user.email "<username>@users.noreply.github.com"`
-- SSH auth issues:
-    Test with `ssh -T git@github.com` and ensure your public key is added in GitHub settings.
-- Poetry Python version mismatch:
-    Use a compatible interpreter (for example Python 3.12):
-    `poetry env use /path/to/python3.12`
