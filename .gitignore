@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Local datasets and generated token files
+*.bin
+*.npy
+
+# Training checkpoints and model weights
+*.pth
+checkpoints/
+transformer_checkpoints*/
+
+# Logs
+*.log
+
+# Secrets and local env files
+.env
+.env.*
+!.env.example
